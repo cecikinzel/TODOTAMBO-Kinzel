@@ -6,106 +6,94 @@
 	<title>
 		Todotambo Rafaela 
 	</title>
+<!-- Archivos externos /!-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+	<!-- Archivos internos /!-->
+	<link rel="stylesheet" type="text/css" href="../CSS/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
 </head>
 <body>
-	<header class="encabezado">
-		<div class="container">
+
+<!-- Encabezado /!-->
+	<header class="header">
+		<div>
 			<!--Este es el logotipo del negocio/!-->
-			<a href="../index.html" class="logotipo"><img src="../MEDIA/..." alt="Logo de Todotambo Rafaela" class="encabezado__logo"></a> 
+			<a href="../index.html" class="logotipo">
+			<img src="../MEDIA/todotambo-logo.jpeg" alt="Logo de Todotambo Rafaela" class="headerLogo"></a>
 		</div>
 
-		<nav class="encabezado__menú"> <!--Este es el navegador/!-->
-			<ul class="encabezado__menú__list">
-				<li class="list__inline">
+<!-- Barra de Navegación /!-->
+		<nav class="headerMenu">
+			<ul class="menuList">
+				<li class="listInline">
 					<a href="../index.html">INICIO</a>
 				</li>
-				<li class="list__inline">
+				<li class="listInline">
 					<a href="productos.html">PRODUCTOS</a>
-					<ul class="encabezado__menú__list">
+					<ul class="menuList">
 						<li>
-							<a href="">Subítem 1</a>
+							<a href="productos.html">Higiene y Desinfección</a>
 						</li>
 						<li>
-							<a href="">Subítem 2</a>
+							<a href="productos.html">Accesorios para tambos</a>
 						</li>
 						<li>
-							<a href="">Subítem 3</a>
+							<a href="productos.html">Equipamiento</a>
 						</li>
 					</ul>
 				</li>
-				<li class="list__inline">
+				<li class="listInline">
 					<a href="servicios.html">SERVICIOS</a>
-					<ul class="encabezado__menú__list">
+					<ul class="menuList">
 						<li>
-							<a href="">Subítem 1</a>
+							<a href="servicios.html">Guardias permanentes</a>
 						</li>
 						<li>
-							<a href="">Subítem 2</a>
+							<a href="servicios.html">Servicio técnico</a>
 						</li>
 						<li>
-							<a href="">Subítem 3</a>
+							<a href="servicios.html">Chequeos y reparaciones</a>
+						</li>
+						<li>
+							<a href="servicios.html">Montaje y mantenimiento periódico</a>
 						</li>
 					</ul>
 				</li>
-				<li class="list__inline">
+				<li class="listInline">
 					<a href="proyectos.html">PROYECTOS</a>
+					<ul class="menuList">
+						<li>
+							<a href="proyectos.html">Corrales de espera</a>
+						</li>
+						<li>
+							<a href="proyectos.html">Sistema anti-estrés</a>
+						</li>
+						<li>
+							<a href="proyectos.html">Camas y separadores</a>
+						</li>
+						<li>
+							<a href="proyectos.html">Ampliación de salas y equipos de ordeño</a>
+						</li>
+					</ul>
 				</li>
-				<li class="list__inline">
+				<li class="listInline">
 					<a href="contacto.html">CONTACTO</a>
 				</li>
 			</ul> 	
 		</nav>
 	</header>
+
+<!-- Main /!-->	
 	<main class="main">
-		<table>
-			<tr>
-				<th>Pulsador</th>
-				<th>Descripción</th>
-				<th>Características</th>
-			</tr>
-			<tr>
-				<td>SMARTPULS</td>
-				<td>Pulsación suave y delicada para un ordeño más limpio</td>
-				<td>
-					<ul>
-						<li>Programación automática</li>
-						<li>Pulsación ondulada</li>
-						<li>Funcionamiento silencioso</li>
-						<li>Apto solo para ordeño de vacas</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td>E-puls</td>
-				<td>Simple y fácil de usar, con un control de hasta 24 pulsadores</td>
-				<td>
-					<ul>
-						<li>Programación manual</li>
-						<li>Funcionamiento silencioso</li>
-						<li>Ahorro de energía</li>
-						<li>Apto solo para ordeño de vacas</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td>Puls-8</td>
-				<td>Simple y fácil de usar, con un control de hasta 40 pulsadores</td>
-				<td>
-					<ul>
-						<li>Programación manual</li>
-						<li>Pulsación vertical</li>
-						<li>Ahorro de energía</li>
-						<li>Apto para ordeño de vacas, ovejas o cabras</li>
-					</ul>
-				</td>
-			</tr>
+		
 				
-		</table>
+
 	</main>
-	<footer class="pie"> <!--En el pie de página irá el logotipo, un atajo para la sección de productos y de contacto/!-->
+
+<!-- Pie de Página /!-->		
+	<footer class="pie container-fluid mt-3">
 		<div>
-			<img src="../MEDIA/todotambo-logo.jpeg" class="footer__logo">
+			<img src="../MEDIA/todotambo-logo.jpeg" class="footerLogo">
 		</div>
 		<div class="copyright">
 			<p>
@@ -114,5 +102,6 @@
 			</p>
 		</div>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 </body>
 </html>

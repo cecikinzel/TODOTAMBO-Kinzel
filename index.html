@@ -6,74 +6,77 @@
 	<title>
 		Todotambo Rafaela 
 	</title>
+	<!-- Archivos externos /!-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+	<!-- Archivos internos /!-->
 	<link rel="stylesheet" type="text/css" href="./CSS/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./CSS/style.css">
 </head>
 <body>
 
 <!-- Encabezado /!-->
-	<header class="encabezado">
-		<div class="container">
+	<header class="header">
+		<div>
 			<!--Este es el logotipo del negocio/!-->
 			<a href="index.html" class="logotipo">
-			<img src="./MEDIA/todotambo-logo.jpeg" alt="Logo de Todotambo Rafaela" class="encabezado__logo"></a> 
+			<img src="./MEDIA/todotambo-logo.jpeg" alt="Logo de Todotambo Rafaela" class="headerLogo"></a>
 		</div>
 
 <!-- Barra de Navegación /!-->
-		<nav class="encabezado__menú">
-			<ul class="encabezado__menú__list">
-				<li class="list__inline">
+		<nav class="headerMenu">
+			<ul class="menuList">
+				<li class="listInline">
 					<a href="index.html">INICIO</a>
 				</li>
-				<li class="list__inline">
+				<li class="listInline">
 					<a href="./PAGES/productos.html">PRODUCTOS</a>
-					<ul class="encabezado__menú__list">
+					<ul class="menuList">
 						<li>
-							<a href="">Higiene y Desinfección</a>
+							<a href="./PAGES/productos.html">Higiene y Desinfección</a>
 						</li>
 						<li>
-							<a href="">Accesorios para tambos</a>
+							<a href="./PAGES/productos.html">Accesorios para tambos</a>
 						</li>
 						<li>
-							<a href="">Equipamiento</a>
+							<a href="./PAGES/productos.html">Equipamiento</a>
 						</li>
 					</ul>
 				</li>
-				<li class="list__inline">
+				<li class="listInline">
 					<a href="./PAGES/servicios.html">SERVICIOS</a>
-					<ul class="encabezado__menú__list">
+					<ul class="menuList">
 						<li>
-							<a href="">Guardias permanentes</a>
+							<a href="./PAGES/servicios.html">Guardias permanentes</a>
 						</li>
 						<li>
-							<a href="">Servicio técnico</a>
+							<a href="./PAGES/servicios.html">Servicio técnico</a>
 						</li>
 						<li>
-							<a href="">Chequeos y reparaciones</a>
+							<a href="./PAGES/servicios.html">Chequeos y reparaciones</a>
 						</li>
 						<li>
-							<a href="">Montaje y mantenimiento periódico</a>
+							<a href="./PAGES/servicios.html">Montaje y mantenimiento periódico</a>
 						</li>
 					</ul>
 				</li>
-				<li class="list__inline">
+				<li class="listInline">
 					<a href="./PAGES/proyectos.html">PROYECTOS</a>
-					<ul class="encabezado__menú__list">
+					<ul class="menuList">
 						<li>
-							<a href="">Corrales de espera</a>
+							<a href="./PAGES/proyectos.html">Corrales de espera</a>
 						</li>
 						<li>
-							<a href="">Sistema anti-estrés</a>
+							<a href="./PAGES/proyectos.html">Sistema anti-estrés</a>
 						</li>
 						<li>
-							<a href="">Camas y separadores</a>
+							<a href="./PAGES/proyectos.html">Camas y separadores</a>
 						</li>
 						<li>
-							<a href="">Ampliación de salas y equipos de ordeño</a>
+							<a href="./PAGES/proyectos.html">Ampliación de salas y equipos de ordeño</a>
 						</li>
 					</ul>
 				</li>
-				<li class="list__inline">
+				<li class="listInline">
 					<a href="./PAGES/contacto.html">CONTACTO</a>
 				</li>
 			</ul> 	
@@ -82,55 +85,59 @@
 
 <!-- Main /!-->
 	<main class="main">
-		<div class="container">
-			<h1>TODOTAMBO RAFAELA</h1>
-			<h3>ORGANIZACIÓN INTEGRAL PARA EL TAMBO</h3>
-		</div>
+		<div class="mainContainer text-center">
+			<div class="container">
+				<h1>TODOTAMBO RAFAELA</h1>
+				<h3>ORGANIZACIÓN INTEGRAL PARA EL TAMBO</h3>
+			</div>
 <!-- Primera Sección: pequeña presentación de la empresa y el equipo de trabajo /!-->
-		<section class="container__section">
-			<!-- Este texto irá por sobre la imagen /!-->
-			<h3>Esta es nuestra pasión y nuestro compromiso</h3>
-			<h3>Somos una empresa familiar con más de 30 años de trabajo en el sector lechero</h3>
-			<h4>Birndamos el mejor servicio de guardias permanentes, 24 hs. 365 días del año</h4>
-			<img src="./MEDIA/dairy farm.jpg" alt="Instalación de tambo rotativo" class="imgTodotambo">
-		</section>
-			
-	<h2>Segunda sección: Galería</h2>		
-		<div class="gallery padre__flex">
-			<div class="galería__flexible">
-				<h4>Nuestros proyectos</h4>
-					<img src="./MEDIA/imagenDeProyecto.jpg" class="imgGallery">
-					<p class="galería__descripción">Realizamos diseño y planificación de tambos, implementando las últimas tecnologías disponibles en el sector.</p>
-			</div>
-			<div class="galería__flexible">
-				<h4>Gama de productos</h4>
-					<img src="./MEDIA/imagenDeProducto.jpg" class="imgGallery">
-					<p class="galería__descripción">Disponemos de una gran variedad de productos para manejo automático del ordeñe y limpieza y desinfección de equipamiento para su tambo.</p>
-			</div>
-			<div class="galería__flexible">
-				<h4>Servicio técnico</h4>
-					<img src="./MEDIA/servicio-tecnico.jpg" class="imgGallery">
-					<p class="galería__descripción">Brindamos el mejor servicio para su tambo.</p> 
-					<p class="galería__descripción">SERVICIO TÉCNICO CON GUARDIAS PERMANENTES.</p>
-			</div>
+			<section class="containerSection">
+				<!-- Este texto irá por sobre la imagen /!-->
+				<h3>Esta es nuestra pasión y nuestro compromiso</h3>
+				<h3>Somos una empresa familiar con más de 30 años de trabajo en el sector lechero</h3>
+				<h4>Birndamos el mejor servicio de guardias permanentes, 24 hs. 365 días del año</h4>
+				<img src="./MEDIA/dairy farm.jpg" alt="Proyecto de instalación de tambo" class="imgTodotambo">
+			</section>
 		</div>
+			
+<!--Segunda sección: Galería /!-->	
+		<div class="container-fluid">
+			<div class="row my-2 p-1">
+				<div class="galeríaFlexible col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<h4>Nuestros proyectos</h4>
+						<img src="./MEDIA/imagenDeProyecto.jpg" class="imgGallery">
+						<p class="galeríaDescripcion lead">Realizamos diseño y planificación de tambos, implementando las últimas tecnologías disponibles en el sector.</p>
+				</div>
+				<div class="galeríaFlexible col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<h4>Gama de productos</h4>
+						<img src="./MEDIA/imagenDeProducto.jpg" class="imgGallery">
+						<p class="galeríaDescripcion lead">Disponemos de una gran variedad de productos para manejo automático del ordeñe y limpieza y desinfección de equipamiento para su tambo.</p>
+				</div>
+				<div class="galeríaFlexible col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<h4>Servicio técnico</h4>
+						<img src="./MEDIA/servicio-tecnico.jpg" class="imgGallery">
+						<p class="galeríaDescripcion lead">Brindamos el mejor servicio para su tambo.</p> 
+						<p class="galeríaDescripcion lead">SERVICIO TÉCNICO CON GUARDIAS PERMANENTES.</p>
+				</div>
+			</div>
+		</div>	
 	</main>
 
-	<footer class="pie"> <!--En el pie de página irá el logotipo, un atajo para la sección de productos y de contacto/!-->
+<!-- Pie de página /!-->
+	<footer class="pie container-fluid mt-3"> 
 		<div>
-			<img src="./MEDIA/todotambo-logo.jpeg" class="footer__logo">
+			<img src="./MEDIA/todotambo-logo.jpeg" class="footerLogo">
 		</div>
-		<br>
-		<div class="footer__enlaces">
-			<a href="productos.html">PRODUCTOS</a>
+		<div class="footerEnlaces mt-2">
+			<a href="./PAGES/productos.html">PRODUCTOS</a>
 			<ul>
 				<li>Higiene y Desinfección</li>
 				<li>Accesorios para tambos</li>
 				<li>Equipamiento</li>
 			</ul>
 		</div>
-		<div class="footer__enlaces">
-			<a href="contacto.html">CONTACTO</a>
+		<div class="footerEnlaces">
+			<a href="./PAGES/contacto.html">CONTACTO</a>
 		</div>
 		<div class="copyright">
 			<p>
@@ -139,6 +146,7 @@
 			</p>
 		</div>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 
 </body>
 </html>
