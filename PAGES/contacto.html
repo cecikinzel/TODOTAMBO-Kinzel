@@ -85,39 +85,59 @@
 
 <!-- Main /!-->	
 	<main class="main">
-		<fieldset> <legend>Póngase en contacto</legend>
-		<form action="/" method="POST" enctype="application/x-www-form-urlencoded"> 
-			<label for="fname">Nombre:</label><br>
-			<input type="text" id="fname" name="fname"><br>
-			<label for="lname">Apellido:</label><br>
-			<input type="text" id="lname" name="lname"><br>
-			<label for="email">E-mail</label><br>
-			<input type="E-mail" name="email"><br>
+		<section class="contactSection">
+			<div class="container">
+				<div class="sectionTitle pb-3">
+					<h1>CONTACTO</h1>
+					<p class="contactDesc">Envíe su consulta o solicitud por cualquiera de estos medios de comunicación o completando el siguiente formulario. Estamos a su servicio.</p>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row contact-info">
+					<div class="col-md-4 contact-address">
+						<h3>DIRECCIÓN POSTAL</h3>
+						<address>Avenida Santa Fe 2785, Rafaela - Santa Fe, Argentina</address>
+					</div>
+					<div class="col-md-4 contact-phone">
+						<h3>TELÉFONO</h3>
+						<p>
+							<a href="tel:+5403492428212">+54 03492 428212</a>
+						</p>
+					</div>
+					<div class="col-md-4 contact-mail">
+						<h3>EMAIL</h3>
+						<p>
+							<a href="mailto:administracion@todotambo.com.ar">administracion@todotambo.com.ar</a>
+							<a href="mailto:roberto.kinzel@todotambo.com.ar">roberto.kinzel@todotambo.com.ar</a>
+							<a href="mailto:ventasyservicios@todotambo.com.ar">ventasyservicios@todotambo.com.ar</a>
+						</p>
+					</div>
+				</div>
+			</div>
 
-			<label for="message">Escriba aquí su consulta:</label><br>
-			<textarea id="message"></textarea><br>
-
-			<p>Ocupación</p>
-			<div>Dueño</div>
-			<input type="radio" name="ocupación" value="Dueño">
-			<div>Veterinario</div>
-			<input type="radio" name="ocupación" value="Veterinario">
-			<div>Tambero</div>
-			<input type="radio" name="ocupación" value="Tambero">
-			<div>Ingeniero</div>
-			<input type="radio" name="ocupación" value="Ingeniero"><br>
-
-			<p>Producto por el que desea consultar:</p>
-			<select name="Producto">
-				<option value="1">Pezoneras</option>
-				<option value="2">Repuestos</option>
-				<option value="3">Artículos de limpieza</option>
-			</select><br><br>
-
-			<input type="reset" value="Borrar datos">
-			<input type="submit" value="Enviar">
-		</fieldset>
-		</form>
+			<div class="form">
+				<form action="/" method="POST" enctype="application/x-www-form-urlencoded">
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="fname">Nombre y Apellido</label>
+							<input type="text" id="fname" name="fname">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="email">E-mail</label>
+							<input type="E-mail" name="email">
+						</div>
+					</div>
+					<div class="form-row">
+						<label for="message">Escriba aquí su consulta:</label>
+						<textarea id="message"></textarea>
+					</div>
+					<div class="text-center">
+						<button type="reset" class="btn btn-outline-danger">Borrar datos</button>
+						<button type="submit" class="btn btn-outline-success">Enviar mensaje</button>
+					</div>
+				</form>
+			</div>
+		</section>	
 	</main>
 
 <!-- Pie de página /!-->	

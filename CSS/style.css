@@ -297,6 +297,16 @@ div .row {
   }
 }
 
+.contact-info {
+	margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
 .pie {
 	background-color: #2a2a2e;
 	color: silver;
