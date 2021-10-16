@@ -83,9 +83,14 @@ ul li:hover ul a:hover {
 	padding-top: 10rem;
 }
 
+body {
+	font-family: "Open Sans", sans-serif;
+    color: #03011f;
+    line-height: 1.5;
+}
+
 h1 {
 	color: darkblue;
-	font: 'Montserrat', sans-serif;
 	text-align: center;
 }
 
@@ -110,13 +115,6 @@ h4 {
   	margin-right: auto;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px grey;
-}
-
-p {
-	color: black;
-	text-align: justify;
-	font-family: 'Arial', sans-serif;
-	line-height: 1.5;
 }
 
 .container-fluid {
@@ -165,7 +163,67 @@ p {
 .galeríaDescripcion {
 	padding: 0.2rem;
 	text-align: center;
-	font-size: ;
+}
+
+.sectionTitle {
+	text-align: center;
+    position: relative;
+}
+
+.productDesc {
+	text-align: center;
+}
+
+.productItems {
+	cursor: pointer #030336;
+	list-style-type: none;
+	text-align: center;
+	text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+}
+
+.gallery-row {
+	display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 4px;
+  	margin: 10px;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+}
+
+.column img {
+  	margin: 10px 10px;
+  	width: 100%;
+  	border-radius: 3px;
+  	border: 2px solid #a4a4ab;
+  	filter: brightness(100%);
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.column img:hover {
+    filter: brightness(70%);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .pie {
@@ -190,5 +248,5 @@ p {
 
 .copyright {
 	background-color: dimgray;
-	color: darkslategray;
+	color: #03011f;
 }
