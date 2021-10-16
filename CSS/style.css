@@ -271,8 +271,9 @@ div .row {
 .card {
 	width: 100%;
 	margin: 5px;
-	border: 2px solid #2a2a2e;
+	border: 2px solid silver;
 	border-radius: 3px;
+	box-shadow: 3px 3px 3px grey;
 	display: flex;
 }
 
@@ -288,6 +289,12 @@ div .row {
 
 .card-body {
 	margin: 0;
+}
+
+@media (max-width: 768px) {
+  .card {
+    float: right;
+  }
 }
 
 .pie {
