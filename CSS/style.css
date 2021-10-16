@@ -212,6 +212,32 @@ h4 {
     transform: scale(1.1);
 }
 
+div .row {
+	display: block;
+	width: 100%;
+}
+
+.box {
+	margin: 5px 0 5px 0;
+}
+
+.title {
+	border-radius: 2px;
+	border: 1px solid transparent;
+	font-weight: 600;
+	transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.title:hover {
+	color: #373f4a;
+	transform: scale(1.1);
+}
+
+.description {
+	text-align: justify;
+}
+
 @media screen and (max-width: 768px) {
   .column {
     flex: 50%;
@@ -223,6 +249,23 @@ h4 {
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+}
+
+
+@media (min-width: 768px) {
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    flex-basis: 33.3333%;
+    max-width: 33.333333%;
   }
 }
 
