@@ -307,6 +307,10 @@ div .row {
     box-sizing: border-box;
 }
 
+.form {
+	display: inline-block;
+}
+
 .pie {
 	background-color: #2a2a2e;
 	color: silver;
