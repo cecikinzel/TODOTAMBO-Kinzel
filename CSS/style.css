@@ -72,13 +72,14 @@ ul li:hover ul a:hover {
   .main h4 {
     color: darkblue;
     text-align: center; }
-  .main .imgTodotambo {
-    width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px grey; }
+
+.carousel slide {
+  justify-content: center;
+  margin: 5px auto 5px auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey; }
+  .carousel slide .carousel-item {
+    width: 600px; }
 
 .gallery .galeríaFlexible {
   margin: 10px;
@@ -228,7 +229,6 @@ div .row {
 .pie {
   display: block; }
   .pie .copyright {
-    position: absolute;
     text-align: center;
     background-color: dimgray;
     color: #2a2a2e; }

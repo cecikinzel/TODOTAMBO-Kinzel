@@ -105,13 +105,15 @@ ul li:hover ul a:hover {
 	h4 {
 		@include main-theme;
 	}
-	.imgTodotambo {
-	width: 600px;
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.carousel slide {
+	justify-content: center;
+	margin: 5px auto 5px auto;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px grey;
+	.carousel-item {
+		width: 600px;
 	}
 }
 
@@ -298,7 +300,6 @@ div .row {
 .pie {
 	display: block;
 	.copyright {
-	position: absolute;
 	text-align: center;
 	background-color: dimgray;
 	color: #2a2a2e;
