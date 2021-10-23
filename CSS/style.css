@@ -7,6 +7,8 @@
   z-index: 2; }
   .header .logotipo {
     width: 100%; }
+  .header .headerLogo {
+    width: 350px; }
 
 .headerMenu {
   font-weight: bold;
@@ -55,7 +57,7 @@ ul li:hover ul a:hover {
 /*FIN ESTILOS HEADER*/
 /*ESTILOS MAIN*/
 .main {
-  padding-top: 15rem; }
+  padding-top: 10rem; }
   .main body {
     font-family: "Open Sans", sans-serif;
     color: #03011f;

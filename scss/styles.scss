@@ -24,7 +24,10 @@
 	width: 100%;
 	z-index: 2;
 	.logotipo {
-	width: 100%
+	width: 100%;
+	}
+	.headerLogo {
+	width: 350px;
 	}
 }
 
@@ -87,7 +90,7 @@ ul li:hover ul a:hover {
 /*ESTILOS MAIN*/
 
 .main {
-	padding-top: 15rem;
+	padding-top: 10rem;
 	body {
 		font-family: "Open Sans", sans-serif;
     color: #03011f;
