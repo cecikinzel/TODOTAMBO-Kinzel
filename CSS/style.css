@@ -64,7 +64,8 @@ ul li:hover ul a:hover {
     color: darkblue;
     text-align: center; }
   .main h2 {
-    color: darkblue; }
+    color: darkblue;
+    text-align: center; }
   .main h3 {
     color: darkblue;
     text-align: center; }
@@ -123,7 +124,7 @@ ul li:hover ul a:hover {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   border-radius: 3px; }
 
 .gallery-row {
@@ -160,7 +161,7 @@ div .row {
   border: 1px solid transparent;
   font-weight: 600;
   transform: scale(1);
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.5s ease-in-out; }
   .title:hover {
     color: #373f4a;
     transform: scale(1.1); }
