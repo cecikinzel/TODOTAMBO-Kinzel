@@ -81,9 +81,7 @@ ul li:hover ul a:hover {
     box-shadow: 5px 5px 5px grey; }
 
 .gallery .galeríaFlexible {
-  justify-items: center;
-  align-items: center;
-  width: 70%;
+  margin: 10px;
   border: 2px solid silver;
   transition: all 0.5s ease-in-out; }
   .gallery .galeríaFlexible:hover {
@@ -91,10 +89,9 @@ ul li:hover ul a:hover {
     box-shadow: 5px 5px 5px grey; }
 
 .gallery .imgGallery {
-  width: 250px;
+  width: 50%;
   border: 2px solid transparent;
   border-radius: 15px;
-  padding: 10px 14px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -228,23 +225,6 @@ div .row {
 
 /*FIN ESTILOS MAIN*/
 /*ESTILOS FOOTER*/
-.pie {
-  background-color: #2a2a2e;
-  color: silver;
-  border: 5px; }
-
-.footerEnlaces {
-  color: whitesmoke;
-  text-decoration: none;
-  list-style-type: none;
-  text-transform: uppercase;
-  max-width: 300px;
-  justify-content: center; }
-
-.footerEnlaces:hover {
-  background-color: #030336;
-  transition: all 0.3s ease-in-out; }
-
-.copyright {
+.pie .copyright {
   background-color: dimgray;
   color: #03011f; }
