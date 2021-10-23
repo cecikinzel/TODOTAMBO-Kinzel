@@ -226,8 +226,9 @@ div .row {
 /*FIN ESTILOS MAIN*/
 /*ESTILOS FOOTER*/
 .pie {
-  margin-bottom: 0; }
+  display: block; }
   .pie .copyright {
-    margin: 0px 0px;
+    position: absolute;
+    text-align: center;
     background-color: dimgray;
     color: #2a2a2e; }
