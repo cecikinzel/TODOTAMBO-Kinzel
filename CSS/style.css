@@ -204,14 +204,15 @@ div .row {
 
 .card-container {
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: no wrap; }
 
 .card-img {
   border: 1px solid darkgrey;
   border-radius: 2px; }
 
 .card-body {
-  margin: 0; }
+  margin: 0;
+  width: 50%; }
 
 @media (max-width: 768px) {
   .card {
@@ -225,9 +226,6 @@ div .row {
   margin-right: -15px;
   margin-left: -15px;
   box-sizing: border-box; }
-
-.form {
-  display: inline-block; }
 
 /*FIN ESTILOS MAIN*/
 /*ESTILOS FOOTER*/
