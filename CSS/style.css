@@ -152,7 +152,7 @@ ul li:hover ul a:hover {
     filter: brightness(70%);
     transform: scale(1.1); }
 
-div .row {
+div .gallery-row {
   display: block;
   width: 100%; }
 
@@ -201,18 +201,15 @@ div .row {
   border-radius: 3px;
   box-shadow: 3px 3px 3px grey;
   display: flex; }
-
-.card-container {
-  flex-direction: row;
-  flex-wrap: no wrap; }
-
-.card-img {
-  border: 1px solid darkgrey;
-  border-radius: 2px; }
-
-.card-body {
-  margin: 0;
-  width: 50%; }
+  .card .card-container {
+    flex-direction: row;
+    flex-wrap: no wrap; }
+    .card .card-container .card-img {
+      border: 1px solid darkgrey;
+      border-radius: 2px;
+      width: 500px; }
+    .card .card-container .card-body {
+      margin: 0; }
 
 @media (max-width: 768px) {
   .card {
@@ -223,8 +220,6 @@ div .row {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
   box-sizing: border-box; }
 
 /*FIN ESTILOS MAIN*/

@@ -202,7 +202,7 @@ ul li:hover ul a:hover {
 		}
 }
 
-div .row {
+div .gallery-row {
 	display: block;
 	width: 100%;
 }
@@ -264,21 +264,18 @@ div .row {
 	border-radius: 3px;
 	box-shadow: 3px 3px 3px grey;
 	display: flex;
-}
-
-.card-container {
+	.card-container {
 	flex-direction: row;
 	flex-wrap: no wrap;
-}
-
-.card-img {
-	border: 1px solid darkgrey;
-	border-radius: 2px;
-}
-
-.card-body {
-	margin: 0;
-	width: 50%;
+		.card-img {
+		border: 1px solid darkgrey;
+		border-radius: 2px;
+		width: 500px;
+		}
+		.card-body {
+			margin: 0;
+		}
+	}
 }
 
 @media (max-width: 768px) {
@@ -292,8 +289,6 @@ div .row {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
     box-sizing: border-box;
 }
 
