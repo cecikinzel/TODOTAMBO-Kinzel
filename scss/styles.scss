@@ -88,6 +88,7 @@ ul li:hover ul a:hover {
 /*FIN ESTILOS HEADER*/
 
 /*ESTILOS MAIN*/
+/*PÁGINA DE INICIO*/
 
 .main {
 	padding-top: 10rem;
@@ -161,7 +162,8 @@ ul li:hover ul a:hover {
 	text-align: center;
 }
 
-/* PÁGINA DE PRODUCTOS*/
+/*FIN PÁGINA DE INICIO*/
+/*PÁGINA DE PRODUCTOS*/
 
 .productItems {
 	width: 33.33%;
@@ -207,6 +209,9 @@ div .gallery-row {
 	width: 100%;
 }
 
+/*FIN PÁGINA DE PRODUCTOS*/
+/*PÁGINA DE SERVICIOS*/
+
 .box {
 	margin: 5px 0 5px 0;
 }
@@ -241,14 +246,6 @@ div .gallery-row {
   }
 }
 
-@media (min-width: 768px) {
-.col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
 @media (min-width: 992px) {
 .col-lg-4 {
     flex: 0 0 33.333333%;
@@ -257,6 +254,9 @@ div .gallery-row {
   }
 }
 
+/*FIN PÁGINA DE SERVICIOS*/
+/*PÁGINA DE PROYECTOS*/
+
 .card {
 	width: 100%;
 	margin: 5px;
@@ -264,6 +264,7 @@ div .gallery-row {
 	border-radius: 3px;
 	box-shadow: 3px 3px 3px grey;
 	display: flex;
+	justify-content: center;
 	.card-container {
 	flex-direction: row;
 	flex-wrap: no wrap;
@@ -278,11 +279,8 @@ div .gallery-row {
 	}
 }
 
-@media (max-width: 768px) {
-  .card {
-    float: right;
-  }
-}
+/*FIN PÁGINA DE PROYECTOS*/
+/*PÁGINA DE CONTACTO*/
 
 .contact-info {
 	margin-bottom: 20px;
@@ -290,8 +288,46 @@ div .gallery-row {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+    .contact-address {
+    	border: 1px solid silver
+    }
+    .contact-phone {
+    	border: 1px solid silver
+    	#telefono {
+
+    	}
+    }
+    .contact-mail {
+    	border: 1px solid silver
+    	#correo {
+    		
+    	}
+    }
 }
 
+@media screen and (max-width: 768px) {
+  .contact-info {
+    flex: 30%;
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact-info {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    flex-basis: 33.3333%;
+    max-width: 33.333333%;
+  }
+}
+
+/*FIN PÁGINA DE CONTACTO*/
 /*FIN ESTILOS MAIN*/
 
 /*ESTILOS FOOTER*/

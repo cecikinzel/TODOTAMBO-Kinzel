@@ -56,6 +56,7 @@ ul li:hover ul a:hover {
 
 /*FIN ESTILOS HEADER*/
 /*ESTILOS MAIN*/
+/*PÁGINA DE INICIO*/
 .main {
   padding-top: 10rem; }
   .main body {
@@ -117,7 +118,8 @@ ul li:hover ul a:hover {
 .productDesc {
   text-align: center; }
 
-/* PÁGINA DE PRODUCTOS*/
+/*FIN PÁGINA DE INICIO*/
+/*PÁGINA DE PRODUCTOS*/
 .productItems {
   width: 33.33%;
   cursor: pointer #030336;
@@ -156,6 +158,8 @@ div .gallery-row {
   display: block;
   width: 100%; }
 
+/*FIN PÁGINA DE PRODUCTOS*/
+/*PÁGINA DE SERVICIOS*/
 .box {
   margin: 5px 0 5px 0; }
 
@@ -182,25 +186,22 @@ div .gallery-row {
     flex: 100%;
     max-width: 100%; } }
 
-@media (min-width: 768px) {
-  .col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%; } }
-
 @media (min-width: 992px) {
   .col-lg-4 {
     flex: 0 0 33.333333%;
     flex-basis: 33.3333%;
     max-width: 33.333333%; } }
 
+/*FIN PÁGINA DE SERVICIOS*/
+/*PÁGINA DE PROYECTOS*/
 .card {
   width: 100%;
   margin: 5px;
   border: 2px solid silver;
   border-radius: 3px;
   box-shadow: 3px 3px 3px grey;
-  display: flex; }
+  display: flex;
+  justify-content: center; }
   .card .card-container {
     flex-direction: row;
     flex-wrap: no wrap; }
@@ -211,17 +212,38 @@ div .gallery-row {
     .card .card-container .card-body {
       margin: 0; }
 
-@media (max-width: 768px) {
-  .card {
-    float: right; } }
-
+/*FIN PÁGINA DE PROYECTOS*/
+/*PÁGINA DE CONTACTO*/
 .contact-info {
   margin-bottom: 20px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box; }
+  .contact-info .contact-address {
+    border: 1px solid silver; }
+  .contact-info .contact-phone {
+    border: 1px solid silver #telefono; }
+  .contact-info .contact-mail {
+    border: 1px solid silver #correo; }
 
+@media screen and (max-width: 768px) {
+  .contact-info {
+    flex: 30%;
+    max-width: 30%; } }
+
+@media screen and (max-width: 576px) {
+  .contact-info {
+    flex: 100%;
+    max-width: 100%; } }
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 33.333333%;
+    flex-basis: 33.3333%;
+    max-width: 33.333333%; } }
+
+/*FIN PÁGINA DE CONTACTO*/
 /*FIN ESTILOS MAIN*/
 /*ESTILOS FOOTER*/
 .pie {
