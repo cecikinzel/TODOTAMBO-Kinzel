@@ -281,17 +281,27 @@ div .gallery-row {
 
 .contact-info {
 	margin-bottom: 20px;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    .contact-address {
-    	border: 1px solid silver
+	margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+    #telefono {
+    	font-family: "Open Sans", sans-serif;
+    	color: #03011f;
+    	line-height: 1.5;
+    	background-color: white;
+    	&:hover {
+    		color: darkblue;
+    	}
     }
-    .contact-phone {
-    	border: 1px solid silver
-    }
-    .contact-mail {
-    	border: 1px solid silver
+    #correo {
+    	font-family: "Open Sans", sans-serif;
+    	color: #03011f;
+    	line-height: 1.5;
+    	background-color: white;
+    	&:hover {
+    		color: darkblue;
+    	}
     }
 }
 

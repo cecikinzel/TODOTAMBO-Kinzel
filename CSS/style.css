@@ -222,15 +222,24 @@ div .gallery-row {
 /*PÁGINA DE CONTACTO*/
 .contact-info {
   margin-bottom: 20px;
+  margin-top: 20px;
   text-align: center;
   display: flex;
   flex-wrap: wrap; }
-  .contact-info .contact-address {
-    border: 1px solid silver; }
-  .contact-info .contact-phone {
-    border: 1px solid silver; }
-  .contact-info .contact-mail {
-    border: 1px solid silver; }
+  .contact-info #telefono {
+    font-family: "Open Sans", sans-serif;
+    color: #03011f;
+    line-height: 1.5;
+    background-color: white; }
+    .contact-info #telefono:hover {
+      color: darkblue; }
+  .contact-info #correo {
+    font-family: "Open Sans", sans-serif;
+    color: #03011f;
+    line-height: 1.5;
+    background-color: white; }
+    .contact-info #correo:hover {
+      color: darkblue; }
 
 @media screen and (max-width: 768px) {
   .contact-info {
