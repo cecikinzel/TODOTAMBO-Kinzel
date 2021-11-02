@@ -236,7 +236,7 @@ div .gallery-row {
 .contact-info {
   margin-bottom: 20px;
   margin-top: 20px;
-  align-content: center;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap; }
   .contact-info #telefono {
@@ -285,8 +285,9 @@ div .gallery-row {
 /*FIN ESTILOS MAIN*/
 /*ESTILOS FOOTER*/
 .pie {
-  display: block; }
+  display: block;
+  height: 6.5rem;
+  background-image: linear-gradient(dimgray, #2a2a2e); }
   .pie .copyright {
     text-align: center;
-    background-color: dimgray;
     color: #2a2a2e; }

@@ -21,10 +21,10 @@
 	width: 100%;
 	z-index: 2;
 	.logotipo {
-	width: 100%;
+		width: 100%;
 	}
 	.headerLogo {
-	width: 350px;
+		width: 350px;
 	}
 }
 
@@ -297,7 +297,7 @@ div .gallery-row {
 .contact-info {
 	margin-bottom: 20px;
 	margin-top: 20px;
-  align-content: center;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
     #telefono {
@@ -362,9 +362,10 @@ div .gallery-row {
 
 .pie {
 	display: block;
+	height: 6.5rem;
+	background-image: linear-gradient(dimgray, #2a2a2e);
 	.copyright {
 	text-align: center;
-	background-color: dimgray;
 	color: #2a2a2e;
 	}
 }
