@@ -114,7 +114,7 @@ ul li:hover ul a:hover {
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px grey;
 	.carousel-item {
-		width: 600px;
+		width: 1000px;
 	}
 }
 
@@ -161,6 +161,17 @@ ul li:hover ul a:hover {
 
 /*FIN PÁGINA DE INICIO*/
 /*PÁGINA DE PRODUCTOS*/
+
+#nav-item {
+	font-family: "Open Sans", sans-serif;
+  color: #03011f;
+  line-height: 1.5;
+  background-color: white;
+  &:hover {
+    color: darkblue;
+    background-color: white;
+  }
+}
 
 .productItems {
 	width: 33.33%;
@@ -282,7 +293,7 @@ div .gallery-row {
 .contact-info {
 	margin-bottom: 20px;
 	margin-top: 20px;
-  text-align: center;
+  align-content: center;
   display: flex;
   flex-wrap: wrap;
     #telefono {

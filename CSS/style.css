@@ -88,7 +88,7 @@ ul li:hover ul a:hover {
   border-radius: 5px;
   box-shadow: 5px 5px 5px grey; }
   .carousel slide .carousel-item {
-    width: 600px; }
+    width: 1000px; }
 
 .gallery .galeríaFlexible {
   margin: 10px;
@@ -126,6 +126,15 @@ ul li:hover ul a:hover {
 
 /*FIN PÁGINA DE INICIO*/
 /*PÁGINA DE PRODUCTOS*/
+#nav-item {
+  font-family: "Open Sans", sans-serif;
+  color: #03011f;
+  line-height: 1.5;
+  background-color: white; }
+  #nav-item:hover {
+    color: darkblue;
+    background-color: white; }
+
 .productItems {
   width: 33.33%;
   cursor: pointer #030336;
@@ -223,7 +232,7 @@ div .gallery-row {
 .contact-info {
   margin-bottom: 20px;
   margin-top: 20px;
-  text-align: center;
+  align-content: center;
   display: flex;
   flex-wrap: wrap; }
   .contact-info #telefono {
