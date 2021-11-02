@@ -164,9 +164,13 @@ ul li:hover ul a:hover {
 
 #nav-item {
 	font-family: "Open Sans", sans-serif;
+	font-size: 1.3rem;
   color: #03011f;
   line-height: 1.5;
   background-color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  @include transition-time-effect;
   &:hover {
     color: darkblue;
     background-color: white;
@@ -301,6 +305,7 @@ div .gallery-row {
     	color: #03011f;
     	line-height: 1.5;
     	background-color: white;
+    	@include transition-time-effect;
     	&:hover {
     		color: darkblue;
     	}
@@ -310,6 +315,7 @@ div .gallery-row {
     	color: #03011f;
     	line-height: 1.5;
     	background-color: white;
+    	@include transition-time-effect;
     	&:hover {
     		color: darkblue;
     	}

@@ -128,9 +128,13 @@ ul li:hover ul a:hover {
 /*PÁGINA DE PRODUCTOS*/
 #nav-item {
   font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
   color: #03011f;
   line-height: 1.5;
-  background-color: white; }
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out; }
   #nav-item:hover {
     color: darkblue;
     background-color: white; }
@@ -239,14 +243,16 @@ div .gallery-row {
     font-family: "Open Sans", sans-serif;
     color: #03011f;
     line-height: 1.5;
-    background-color: white; }
+    background-color: white;
+    transition: all 0.5s ease-in-out; }
     .contact-info #telefono:hover {
       color: darkblue; }
   .contact-info #correo {
     font-family: "Open Sans", sans-serif;
     color: #03011f;
     line-height: 1.5;
-    background-color: white; }
+    background-color: white;
+    transition: all 0.5s ease-in-out; }
     .contact-info #correo:hover {
       color: darkblue; }
 
