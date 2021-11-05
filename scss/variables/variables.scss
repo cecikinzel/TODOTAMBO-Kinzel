@@ -1,0 +1,8 @@
+@mixin main-theme {
+	color: darkblue;
+	text-align: center;
+}
+
+@mixin transition-time-effect {
+	transition: all 0.5s ease-in-out;
+}

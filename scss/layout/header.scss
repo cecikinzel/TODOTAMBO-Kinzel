@@ -1,0 +1,69 @@
+/*ESTILOS HEADER*/
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	.logotipo {
+		width: 100%;
+	}
+	.headerLogo {
+		width: 350px;
+	}
+}
+
+.headerMenu {
+	font-weight: bold;
+	font-family: sans-serif;
+	.headerLogo {
+	width: 25%;
+	border: 15px;
+	border-radius: 5px;
+  }
+  .menuList {
+	list-style-type: none;
+	font-size: 0;
+	padding: 0;
+	width: 100%;
+  }
+  .listInline {
+	display: inline-block;
+	width: 20%;
+	position: relative;
+  }
+}
+
+a {
+	color: whitesmoke;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	display: block;
+	background-color: #2a2a2e;
+	padding: 10px;
+	&:hover {
+	background-color: #030336;
+	transition: all 0.3s ease-in-out;
+	}
+}
+
+ul ul {
+	position: absolute;
+	display: none;
+}
+
+ul ul li {
+	width: 100%;
+}
+
+ul li:hover ul {
+	display: block;
+}
+
+ul li:hover ul a:hover {
+	background-color: #030336;
+	transition: all 0.3s ease-in-out;
+}
+
+/*FIN ESTILOS HEADER*/
