@@ -64,7 +64,7 @@ ul li:hover ul a:hover {
 /*ESTILOS MAIN*/
 /*PÁGINA DE INICIO*/
 .main {
-  padding-top: 10rem; }
+  padding-top: 12rem; }
   .main body {
     font-family: "Open Sans", sans-serif;
     color: #03011f;
@@ -119,9 +119,11 @@ ul li:hover ul a:hover {
 
 .sectionTitle {
   text-align: center;
-  position: relative; }
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
-.productDesc {
+.sectionDesc {
   text-align: center; }
 
 /*FIN PÁGINA DE INICIO*/
@@ -170,8 +172,8 @@ ul li:hover ul a:hover {
   transform: scale(1);
   transition: all 0.5s ease-in-out; }
   .column img:hover {
-    filter: brightness(70%);
-    transform: scale(1.1); }
+    filter: brightness(80%);
+    transform: scale(1.05); }
 
 div .gallery-row {
   display: block;
@@ -180,7 +182,8 @@ div .gallery-row {
 /*FIN PÁGINA DE PRODUCTOS*/
 /*PÁGINA DE SERVICIOS*/
 .box {
-  margin: 5px 0 5px 0; }
+  margin: 15px 0 15px 0;
+  width: 30%; }
 
 .title {
   border-radius: 2px;
@@ -193,7 +196,7 @@ div .gallery-row {
     transform: scale(1.1); }
 
 .description {
-  text-align: justify; }
+  text-align: center; }
 
 @media screen and (max-width: 768px) {
   .column {
@@ -305,7 +308,6 @@ div .gallery-row {
 /*FIN ESTILOS MAIN*/
 /*ESTILOS FOOTER*/
 .pie {
-  display: block;
   height: 6.5rem;
   background-image: linear-gradient(dimgray, #2a2a2e); }
   .pie .copyright {
