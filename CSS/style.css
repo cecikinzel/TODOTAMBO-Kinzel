@@ -69,17 +69,8 @@ ul li:hover ul a:hover {
     font-family: "Open Sans", sans-serif;
     color: #03011f;
     line-height: 1.5; }
-  .main h1 {
-    color: darkblue;
-    text-align: center; }
-  .main h2 {
-    color: darkblue;
-    text-align: center; }
-  .main h3 {
-    color: darkblue;
-    text-align: center; }
-  .main h4 {
-    color: darkblue;
+  .main h1, .main h2, .main h3, .main h4 {
+    color: #070b75;
     text-align: center; }
 
 .carousel slide {
@@ -130,15 +121,15 @@ ul li:hover ul a:hover {
 /*PÁGINA DE PRODUCTOS*/
 #nav-item {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.3rem;
   color: #03011f;
   line-height: 1.5;
+  font-size: 1.3rem;
   background-color: white;
   text-transform: uppercase;
   font-weight: 600;
   transition: all 0.5s ease-in-out; }
   #nav-item:hover {
-    color: darkblue;
+    color: #070b75;
     background-color: white; }
 
 .productItems {
@@ -192,7 +183,7 @@ div .gallery-row {
   transform: scale(1);
   transition: all 0.5s ease-in-out; }
   .title:hover {
-    color: #373f4a;
+    color: #070b75;
     transform: scale(1.1); }
 
 .description {
@@ -242,22 +233,14 @@ div .gallery-row {
   justify-content: center;
   display: flex;
   flex-wrap: wrap; }
-  .contact-info #telefono {
+  .contact-info #telefono, .contact-info #correo {
     font-family: "Open Sans", sans-serif;
     color: #03011f;
     line-height: 1.5;
     background-color: white;
     transition: all 0.5s ease-in-out; }
-    .contact-info #telefono:hover {
-      color: darkblue; }
-  .contact-info #correo {
-    font-family: "Open Sans", sans-serif;
-    color: #03011f;
-    line-height: 1.5;
-    background-color: white;
-    transition: all 0.5s ease-in-out; }
-    .contact-info #correo:hover {
-      color: darkblue; }
+    .contact-info #telefono:hover, .contact-info #correo:hover {
+      color: #070b75; }
 
 @media screen and (max-width: 768px) {
   .contact-info {

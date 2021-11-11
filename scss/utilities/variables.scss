@@ -1,8 +1,9 @@
-@mixin main-theme {
-	color: darkblue;
-	text-align: center;
-}
+$main-theme-color: #070b75;
 
-@mixin transition-time-effect {
-	transition: all 0.5s ease-in-out;
+$transition-time-effect: all 0.5s ease-in-out;
+
+@mixin body-style {
+	font-family: "Open Sans", sans-serif;
+    color: #03011f;
+    line-height: 1.5;
 }

@@ -4,21 +4,20 @@
 .main {
 	padding-top: 12rem;
 	body {
-		font-family: "Open Sans", sans-serif;
-    color: #03011f;
-    line-height: 1.5;
+		@include body-style;
 	}
 	h1 {
-		@include main-theme;
+		color: $main-theme-color;
+		text-align: center;
   }
 	h2 {
-		@include main-theme;
+		@extend h1;
 	}
 	h3 {
-		@include main-theme;
+		@extend h1;
 	}
 	h4 {
-		@include main-theme;
+		@extend h1;
 	}
 }
 
@@ -35,7 +34,7 @@
 	.galeríaFlexible {
 	margin: 10px;
 	border: 2px solid silver;
-	transition: all 0.5s ease-in-out;
+	transition: $transition-time-effect;
 		&:hover {
 		border: 2px solid #030336;
 		box-shadow: 5px 5px 5px grey;
@@ -51,7 +50,7 @@
   	z-index: 1;
     filter: brightness(70%);
     transform: scale(1);
-    @include transition-time-effect;
+    transition: $transition-time-effect;
     &:hover {
 	  filter: brightness(100%);
 	  transform: scale(1.1);
@@ -78,16 +77,14 @@
 /*PÁGINA DE PRODUCTOS*/
 
 #nav-item {
-	font-family: "Open Sans", sans-serif;
+	@include body-style;
 	font-size: 1.3rem;
-  color: #03011f;
-  line-height: 1.5;
   background-color: white;
   text-transform: uppercase;
   font-weight: 600;
-  @include transition-time-effect;
+  transition: $transition-time-effect;
   &:hover {
-    color: darkblue;
+    color: $main-theme-color;
     background-color: white;
   }
 }
@@ -100,7 +97,7 @@
 	text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 5px;
-    @include transition-time-effect;
+    transition: $transition-time-effect;
     border-radius: 3px;
 }
 
@@ -124,7 +121,7 @@
   	border: 2px solid #a4a4ab;
   	filter: brightness(100%);
   	transform: scale(1);
-    @include transition-time-effect;
+    transition: $transition-time-effect;
     &:hover {
     filter: brightness(80%);
     transform: scale(1.05);
@@ -149,9 +146,9 @@ div .gallery-row {
 	border: 1px solid transparent;
 	font-weight: 600;
 	transform: scale(1);
-  @include transition-time-effect;
+  transition: $transition-time-effect;
   &:hover {
-	color: #373f4a;
+	color: $main-theme-color;
 	transform: scale(1.1);
 	}
 }
@@ -217,25 +214,16 @@ div .gallery-row {
   display: flex;
   flex-wrap: wrap;
     #telefono {
-    	font-family: "Open Sans", sans-serif;
-    	color: #03011f;
-    	line-height: 1.5;
+    	@include body-style;
     	background-color: white;
-    	@include transition-time-effect;
+    	transition: $transition-time-effect;
     	&:hover {
-    		color: darkblue;
+    		color: $main-theme-color;
     	}
     }
     #correo {
-    	font-family: "Open Sans", sans-serif;
-    	color: #03011f;
-    	line-height: 1.5;
-    	background-color: white;
-    	@include transition-time-effect;
-    	&:hover {
-    		color: darkblue;
+    	@extend #telefono
     	}
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -269,9 +257,7 @@ div .gallery-row {
   	width: 100%
   }
   label {
-  	font-family: "Open Sans", sans-serif;
-    color: #03011f;
-    line-height: 1.5;
+  	@include body-style;
   }
   input, textarea {
   	width: 100%;
